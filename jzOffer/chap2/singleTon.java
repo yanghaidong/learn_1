@@ -15,7 +15,7 @@ public class singleTon {
         }
         return singleTon;
     }
-
+    
     public static void main(String[] args) {
         System.out.println(jzOffer.chap2.singleTon.getInstance());
     }

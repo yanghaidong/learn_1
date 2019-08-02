@@ -21,4 +21,6 @@ public class SingletonImp4 {
 
         return singletonImp4;
     }
+
+
 }

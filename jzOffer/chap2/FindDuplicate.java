@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class FindDuplicate {
     /**
-     * 先排序，然后两两比较
+     * 先排序，然后两两比较，时间复杂度为o(nlogn)
      * @param numbers
      * @param length
      * @return
@@ -33,7 +33,7 @@ public class FindDuplicate {
     }
 
     /**
-     * 借用哈希表进行解决，时间复杂度为O(n)
+     * 借用哈希表进行解决，时间复杂度为O(n),需要一个哈希表空间复杂度为o(n)
      * @param numbers
      * @param len
      * @return
@@ -116,7 +116,7 @@ public class FindDuplicate {
     }
     /**
      * boolean只占一位，所以还是比较省的，利用数组下标不重复，将数组内数值变成布尔类型的下标
-     * 遇到下标位置数值为true的则重复
+     * 遇到下标位置数值为true的则重复,时间和空间复杂度和哈希类似
      */
 
     public boolean duplicate(int numbers[], int length, int[] duplication) {

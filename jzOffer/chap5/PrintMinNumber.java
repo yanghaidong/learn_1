@@ -38,7 +38,7 @@ public class PrintMinNumber {
 //            @Override
 //            public int compare(Integer str1, Integer str2) {
 //                // TODO Auto-generated method stub
-//                String s1=str1+""+str2;
+//                String s1=str1+""+str2;f
 //                String s2=str2+""+str1;
 //
 //                return s1.compareTo(s2);
