@@ -45,6 +45,7 @@ public class ReplaceSpace {
         }
         int newP = oldP + 2*spaceNumber;
         str.setLength(newP+1);
+        //保证新字符串指针大于等于旧指针
         while (oldP >= 0 && newP > oldP ){
             if (str.charAt(oldP) != ' '){
                 str.setCharAt(newP,str.charAt(oldP));
