@@ -8,7 +8,7 @@ import java.util.LinkedList;
  */
 public class LastInCircle {
     /**
-     * 自己设立一个环形链表，并记录遍历过程，依次移除相应位置的节点，直到只剩下一位
+     * 自己设立一个环形链表，并记录遍历过程，依次移除相应位置的节点，直到只剩下一位;时间复杂度O(nm),空间复杂度O(n)
      * @param n
      * @param m
      * @return
